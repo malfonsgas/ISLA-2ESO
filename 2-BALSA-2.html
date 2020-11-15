@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>2ESO-ECOSUPERVIVIENTES</title>
+	<link rel="stylesheet" type="text/css" href="css/2-BALSA-css.css">
+	<link href="https://fonts.googleapis.com/css2?family=Ranchers&family=Red+Rose&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+
+</head>
+<body onload="inicia()">
+	<header>
+		<h1>  2º ESO - ECOSUPERVIVIENTES-FÍSICA Y QUÍMICA/MATEMÁTICAS</h1>
+		
+		<h2>2-CONSTRUYAMOS UNA BALSA </h2>
+		<p class="Linea_titulo">  </p>
+		<p class="Cita">La<strong> adaptabilidad </strong> es el simple secreto de la supervivencia (Jessica Hagedorn)</p>
+		<p class="Datos_Usuario">PARTICIPANTE NÚMERO 2</p>
+	</header>
+	
+
+	<main>
+
+			<h3>PARA SOBREVIVIR, TENÉIS QUE APLICAR TODO LO QUE SABÉIS</h3>
+			<!--TEXTO EXPLICATIVO CON FOTO. LA CLASE CONTIANER TIENE 8 COLUMNAS: 3% 7% 20% 20% 20% 20% 10%-->
+			<div class="container">
+					<div class="Problema" style="grid-column: span 5;">   
+						<p>El terreno arenoso de algunas islas no es el más adecuado para el desarrollo de una densa vegetación, pero, a pesar de esto, las islas poseen diferentes especies vegetales. El árbol por excelencia en nuestra isla desierta es el <strong>cocotero</strong>, del cual podemos aprovechar desde los frutos hasta las hojas y las ramas.<br><br>En algunas islas también se puede encontrar <strong>bambú, el árbol del pan, bananeros y otros árboles frutales</strong>.
+						</p>
+						<p>
+						Queremos hacer una <strong>balsa</strong> por si en algún momento tenemos que intentar salir de la isla. Vamos a construirla con <strong>troncos de los árboles</strong> que tengamos a mano, así que tendremos que escoger entre los cocoteros o los bananeros. Conviene elegir el árbol que menos masa tenga para que flote mejor en el agua. Sabemos que:
+						</p>
+						<ul>
+							<li>La densidad del árbol del coco es de 290 kg/m<sup>3</sup>. </li> 
+							<li>La densidad de un bananero es de 570 Kg/m<sup>3</sup>. </li>
+						</ul>
+						<p>
+						La <strong>densidad de un material</strong> nos indica cuánta masa tiene una determinada cantidad de volumen. En el caso del cocotero, la densidad nos dice que un 1m<sup>3</sup> de madera tiene una masa de 290kg. La densidad es una <strong>proporción</strong>, o lo que es lo mismo, la constante de proporcionalidad entre dos magnitudes.
+						</p>	
+
+					</div>
+					<figure  style="grid-column: span 2; ">
+						<img class="Imagen_Problema" src="img/2-cocotero.png" width=180px>
+					</figure>
+			</div>  		
+
+			<h3>PREGUNTAS</h3>
+
+	<!--1º PREGUNTA: Selección multiple CON UNA ÚNICA CORRECCIÓN-->
+			<div class="container">
+					<img src="img/1-flor.png" width=10px style="padding-left: 0;">
+					<p class="Pregunta" style="grid-column: span 6;">
+
+						<strong>Primera pregunta: </strong> ¿Qué dos magnitudes estamos relacionando con la densidad?
+
+					</p>
+																
+					<p></p>
+					<input type="checkbox" class="OpcionCheck" id="afirm11" name="afirm11" value=" ">
+					<label for="afirm11" class="TextoCheck" style="grid-column: span 5;"> a) Masa de un material</label>
+
+					<p></p>
+					<input type="checkbox" class="OpcionCheck" id="afirm12" name="afirm12" value=" ">
+					<label for="afirm12" class="TextoCheck" style="grid-column: span 5;"> b)	Color de un material</label>
+
+					<p></p>
+					<input type="checkbox" class="OpcionCheck" id="afirm13" name="afirm13" value=" ">
+					<label for="afirm13" class="TextoCheck" style="grid-column: span 5;"> c)	Longitud del material</label>
+
+					<p></p>
+					<input type="checkbox" class="OpcionCheck" id="afirm14" name="afirm14" value=" ">
+					<label for="afirm14" class="TextoCheck" style="grid-column: span 5;"> d)	Volumen del material </label>
+
+					<p></p>
+					<input type="checkbox" class="OpcionCheck" id="afirm15" name="afirm15" value=" ">
+					<label for="afirm15" class="TextoCheck" style="grid-column: span 5;"> e) Superficie de un material</label>
+
+					<p></p>
+					<p></p>
+					<img src="img/right.png" height="40" class="ImagenesCorreccion" id="Correcto1">
+					<img src="img/wrong.png" height="40" class="ImagenesCorreccion" id="Incorrecto1">
+			</div>  
+
+
+			<hr>
+
+			<!--2º PREGUNTA: Entrada de texto-->
+			<div class="container">
+					<img src="img/1-flor.png" width=10px style="padding-left: 0;margin-top: 0;">
+					<label for="respuesta21" class="Pregunta" style="grid-column: span 6;"><strong>Segunda pregunta:</strong> Si 1m<sup>3</sup> de madera de cocotero tiene una masa de 290kg, ¿Cuánta masa tiene 2m<sup>3</sup> de madera de cocotero?</label>
+					<p></p><p></p>
+					<input type="text" name="respuesta21" id="respuesta21" class="entrada" placeholder="Solución en kg" size=30px style="grid-column: span 2;">	
+					<img src="img/right.png" height="40" class="ImagenesCorreccion" id="Correcto21">
+					<img src="img/wrong.png" height="40" class="ImagenesCorreccion" id="Incorrecto21">
+			</div>		
+			<div class="container">		
+					<img src="img/1-flor.png" width=10px style="padding-left: 0;margin-top: 0;">
+					<label for="respuesta22" class="Pregunta" style="grid-column: span 6;"> ¿Y 4m<sup>3</sup> de madera de cocotero?</label>
+					<p></p><p></p>
+					<input type="text" name="respuesta22" id="respuesta22" class="entrada" placeholder="Solución en kg" size=30px style="grid-column: span 2;">	
+					<img src="img/right.png" height="40" class="ImagenesCorreccion" id="Correcto22">
+					<img src="img/wrong.png" height="40" class="ImagenesCorreccion" id="Incorrecto22">
+					<p></p><p></p>
+					<label  class="Pregunta" style="grid-column: span 6;"> <strong>Date cuenta que si duplico el volumen, se duplica la masa.</strong></label>
+			</div>  
+			<hr>		
+
+			<!--3º PREGUNTA: Desplegable opciones-->
+			<br>
+			<div class="container">
+					<img src="img/1-flor.png" width=10px style="padding-left: 0; margin-top: 0;">
+					<label for="respuesta3 class="Pregunta" style="grid-column: span 6;"><strong>Tercera pregunta:</strong> ¿Qué tipo de relación existe entre la masa de un material y su volumen?</strong><br><br></label>
+					<p></p><p></p>
+					<select name="respuesta3" id="respuesta3" class="seleccionar" style="grid-column: span 2;">
+	  						<option value="PD">Es una relación de proporcionalidad directa</option>
+	  						<option value="NO">No están relacionadas </option>
+	  						<option value="PI">Es una relación de proporcionalidad inversa</option>
+	  						
+					</select>
+					<img src="img/right.png" height="40" class="ImagenesCorreccion" id="Correcto3">
+					<img src="img/wrong.png" height="40" class="ImagenesCorreccion" id="Incorrecto3">
+			</div>  
+			<br><hr>
+
+			<!--4º PREGUNTA: Entrada de texto-->
+			<div class="container">
+					<img src="img/1-flor.png" width=10px style="padding-left: 0;margin-top: 0;">
+					<label for="respuesta41" class="Pregunta" style="grid-column: span 6;"><strong>Cuarta pregunta:</strong> ¿Cuánto vale la constante de proporcionalidad de la madera del cocotero?</label>
+					<p></p><p></p>
+					<input type="text" name="respuesta41" id="respuesta41" class="entrada" placeholder="Solución en kg/m3" size=30px style="grid-column: span 2;">	
+					<img src="img/right.png" height="40" class="ImagenesCorreccion" id="Correcto41">
+					<img src="img/wrong.png" height="40" class="ImagenesCorreccion" id="Incorrecto41">
+			</div>		
+			<div class="container">	
+					<img src="img/1-flor.png" width=10px style="padding-left: 0;margin-top: 0;">
+					<label for="respuesta42" class="Pregunta" style="grid-column: span 6;"> ¿Cómo llamamos a esa constante?</label>
+					<p></p><p></p>
+					<input type="text" name="respuesta42" id="respuesta42" class="entrada"  size=30px style="grid-column: span 2;">	
+					<img src="img/right.png" height="40" class="ImagenesCorreccion" id="Correcto42">
+					<img src="img/wrong.png" height="40" class="ImagenesCorreccion" id="Incorrecto42">
+			</div>  
+			<br><hr>		
+
+			<!--5º PREGUNTA: Desplegable opciones-->
+			<br>
+			<div class="container">
+					<img src="img/1-flor.png" width=10px style="padding-left: 0; margin-top: 0;">
+					<label for="respuesta5 class="Pregunta" style="grid-column: span 6;"><strong>Quinta pregunta:</strong> ¿Qué madera elegiríais entonces para construir vuestra balsa?</strong><br><br></label>
+					<p></p><p></p>
+					<select name="respuesta5" id="respuesta5" class="seleccionar" style="grid-column: span 2;">
+	  						<option value="NO">Madera de cocotero porque tiene más densidad</option>
+	  						<option value="NO">Madera de habanero porque tiene menos densidad </option>
+	  						<option value="NO">Madera de habanero porque tiene más densidad</option>
+	  						<option value="SI">Madera de cocotero porque tiene menos densidad </option>  						
+					</select>
+					<img src="img/right.png" height="40" class="ImagenesCorreccion" id="Correcto5">
+					<img src="img/wrong.png" height="40" class="ImagenesCorreccion" id="Incorrecto5">
+			</div>  
+			<br>
+
+
+	<h3>CONSTRUYAMOS UNA BALSA</h3>
+
+		<br>
+			<div class="container">
+					
+					<p class="Pregunta" style="grid-column: span 7;">Podría ser necesario en algún momento intentar salir de la isla. Ya sabemos qué árbol vamos a usar para la base de la balsa. Tenemos varias <strong>ideas</strong> en mente para construir la balsa. 
+					</p>	
+					<p></p>
+					<figure  style="grid-column: span 2;margin:0;" >
+						<img class="Imagen_Problema" src="img/2-balsa1.jpg" width="100%">
+					</figure>
+					<figure  style="grid-column: span 2;margin:0;">
+						<img class="Imagen_Problema" src="img/2-balsa2.jpg" width="80%">
+					</figure>
+					<figure  style="grid-column: span 2;margin:0;" >
+						<img class="Imagen_Problema" src="img/2-balsa3.jpg" width="90%">
+					</figure>
+
+			</div> 
+
+			<!--6º PREGUNTA: Desplegable opciones-->
+			<div class="container">
+					<img src="img/1-flor.png" width=10px style="padding-left: 0; margin-top: 0;">
+					<label for="respuesta6 class="Pregunta" style="grid-column: span 4;"><strong>Sexta pregunta:</strong> Hemos decidido utilizar troncos de diámetro 36cm y longitud 2,2m para construir la balsa.  ¿Cuál es el <strong>volumen</strong> de un tronco de esas dimensiones? Redondea con dos cifras decimales en caso necesario</label>
+					<figure  style="grid-column: span 2;  padding-top: 0; margin-top: 0;">
+						<img class="Imagen_Problema" src="img/2-troncos.png" width=150px>
+					</figure>
+					<p></p><p></p>
+					<select name="respuesta6" id="respuesta6" class="seleccionar" style="grid-column: span 2;">
+	  						<option value="NO">0,23m3 </option>
+	  						<option value="NO">223,82dm3</option>
+	  						<option value="NO">2,24m3</option>	  						
+	  						<option value="SI">0,22m3</option>
+	  						<option value="NO">2238,19cm3</option>
+	  						<option value="NO">2,22m3</option>
+	  						<option value="NO">223,82cm3</option>
+
+					</select>
+					<img src="img/right.png" height="40" class="ImagenesCorreccion" id="Correcto6">
+					<img src="img/wrong.png" height="40" class="ImagenesCorreccion" id="Incorrecto6">
+			</div>  
+			<hr>
+
+			<!--7º PREGUNTA: Entrada de texto-->
+			<div class="container">
+					<img src="img/1-flor.png" width=10px style="padding-left: 0;margin-top: 0;">
+					<label for="respuesta7" class="Pregunta" style="grid-column: span 6;"><strong>Séptima pregunta:</strong> ¿Qué masa tendrán entonces los 8 troncos que vamos a utilizar?</label>
+					<p></p><p></p>
+					<input type="text" name="respuesta7" id="respuesta7" class="entrada" placeholder="Solución en kg" size=30px style="grid-column: span 2;">	
+					<img src="img/right.png" height="40" class="ImagenesCorreccion" id="Correcto7">
+					<img src="img/wrong.png" height="40" class="ImagenesCorreccion" id="Incorrecto7">
+
+			</div>  
+			<br><hr>		
+
+		<!--8 PREGUNTA: Desplegable opciones-->
+			<div class="container">
+					<img src="img/1-flor.png" width=10px style="padding-left: 0;margin-top: 0;">
+					<label for="respuesta81" class="Pregunta" style="grid-column: span 6;"><strong>Octava pregunta:</strong> ¿Cuál es la densidad del agua?</label>
+					<p></p><p></p><p>
+					<input type="text" name="respuesta81" id="respuesta81" class="entrada" placeholder="Exprésalo en kg/m3" size=30px style="grid-column: span 2;">	
+					<p></p>	<p></p><p></p><p></p>
+					<img src="img/1-flor.png" width=10px style="padding-left: 0; margin-top: 0;">
+					<label for="respuesta82 class="Pregunta" style="grid-column: span 5;">La masa de los 8 troncos de cocotero juntos es bastante considerable , ¿Por qué creeis que la balsa va a flotar y no se va a hundir?</label>
+					<p></p><p></p><p></p>
+					<select name="respuesta82" id="respuesta82" class="seleccionar" style="grid-column: span 2;">
+	  						<option value="SI">Porque la densidad de la madera de cocotero es menor que la densidad del agua</option>
+	  						<option value="NO">Porque la madera es hueca por dentro </option>
+	  						<option value="NO">Porque la densidad del agua es menor que la de la madera de cocotero</option>
+							<option value="NO">Porque la balsa tiene mucha superficie</option>
+					</select>
+					<img src="img/right.png" height="40" class="ImagenesCorreccion" id="Correcto8">
+					<img src="img/wrong.png" height="40" class="ImagenesCorreccion" id="Incorrecto8">
+			</div>  
+			<hr>
+
+			<br>
+			<div class="formulario__grupo formulario__grupo-btn-enviar">
+				<button  class="formulario__btn" onclick="PLANTILLAcomprobar()">Comprueba tus respuestas</button>
+			
+			</div>
+
+
+		<!--CODIGO SOLUCIÓN-->
+		<p class="Codigo" id="Codigo"> The secret letter is A</p>
+	</main>
+
+	<script src="js/2-BALSA-comprobar-2.js"></script>
+
+
+</body>
+</html>

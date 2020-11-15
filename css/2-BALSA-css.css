@@ -1,0 +1,208 @@
+
+body{
+  background-color: #ABB2B9;
+  margin-left: 3%;
+  margin-right: 2%;
+  margin-top: 2%;
+  min-height: 95vh;
+}
+
+header{
+  background: #FEFAF3;
+  padding: 1% 1% 0% 1%;
+  margin: 0px;
+}
+
+nav,
+main,
+footer {
+  background: white;
+  padding: 1%;
+  margin: 0px;
+  /*font-family: 'Source Sans Pro', sans-serif;*/
+}
+
+
+h1 {
+  width: 97.8%;
+  padding: 0% 1% 0% 1%;
+  margin: 0px;
+  color:black;
+  background-color:#d8ff00;
+  border-style: solid;
+  border-width: 0.1em;
+  border-color: black;
+  font-weight: normal;
+  font-size: 0.8em;
+  font-weight: bold;
+  text-align: right;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+h2{
+   width: 98%;
+   padding: 1% 1%;
+   margin: 0px;
+   background-image: url("https://image.freepik.com/foto-gratis/textura-pared-gris_1194-5603.jpg"); 
+   background-color: #cccccc;
+   background-repeat: repeat;
+   text-align: center;
+   color: white;
+   font-weight: normal;
+   font-size: 2em;
+   font-family: Impact;
+   text-transform: uppercase;
+    }
+
+  p.Linea_titulo {
+   width: 100%;
+   height:2px;
+   margin: 0px;
+   background-color: #d8ff00;
+    }
+
+ p.Cita {
+    width: 98%;
+    padding: 1% 1%;
+    margin: 0px;
+    color: white;
+    font-size: 0.9em;
+    font-style: italic;
+    font-family: Calibri;
+    text-align: center; 
+    background-image: url("https://image.freepik.com/foto-gratis/textura-pared-gris_1194-5603.jpg"); 
+    background-repeat: repeat;
+      }
+
+p.Datos_Usuario {
+     width: 98%;
+     padding: 0% 1% 0% 1%;
+     color: black;
+     font-size: 0.7em;
+     font-style: italic;
+     font-family: Comic Sans MS;
+     text-align: right;
+     margin: 0px;
+     }
+
+h3{
+   width: 98%;
+   padding: 0.5% 1% 0.5% 1%;
+   margin: 0px;
+   background: #ECDFEC; 
+   text-align: left;
+   font-weight: bold;
+   text-transform: uppercase;
+   font-size: 1.1em;
+   font-family: Comic Sans MS;
+   border-bottom: solid;
+   border-width: 0.1em;
+   border-color: black;
+    }
+
+
+
+
+div.container{
+  display:grid;
+  grid-template-columns: 3% 7% 20% 20% 20% 20% 10%;
+  grid-template-rows: auto auto;
+  font-family: calibri;
+  font-size: 1.1em;
+  padding: 3px 10px 3px 25px;
+  text-align: justify;
+  align-items: start;
+  justify-content: flex-start;
+
+
+}
+
+
+img{
+  display:block;
+  object-fit: cover;
+  margin:auto;
+  max-width: 100%;
+  padding: 6px 10px 6px 25px;
+ }
+
+ label.PreguntaInput{
+  margin: auto;
+}
+
+ label.Pregunta{
+  margin-bottom: 1%;
+}
+
+img.ImagenesCorreccion{
+  display:none;
+}
+
+
+select{
+    font-family: calibri;
+    font-size: 1em;
+    margin-top:auto;
+    margin-bottom: auto;
+}
+
+input{
+    font-family: calibri;
+    font-size: 1em;
+    display: block;
+    margin-top:auto;
+    margin-bottom: auto;
+}
+
+label.TextoCheck{
+    font-family: calibri;
+    font-size: 1em;
+    margin-top:auto;
+    margin-bottom: auto;
+
+}
+
+input.OpcionCheck{
+    font-family: calibri;
+    font-size: 1em;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin-left: 50%;
+
+
+ }
+
+
+button {
+  border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+  padding: 20px; /*espacio alrededor texto*/
+  background-color: #d8ff00;; /*color botón*/
+  color: #000000; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  text-transform: uppercase; /*capitalización texto*/
+  font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+  border-radius: 50px; /*bordes redondos*/
+  font-size:1.1em;
+  display: block;
+  margin:auto;
+}
+
+p.Codigo{
+  font-size: 3em;
+  font-family: calibri;
+  padding-right: 1.4em;
+  text-align: justify;
+  border-style: solid;
+  border-color: pink;
+  padding: 6px 10px 6px 25px;
+  text-decoration: underline;
+  color: red;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  display:none;
+
+}

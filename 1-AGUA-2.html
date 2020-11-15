@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>2ESO-ECOSUPERVIVIENTES</title>
+	<link rel="stylesheet" type="text/css" href="css/1-AGUA-css.css">
+	<link href="https://fonts.googleapis.com/css2?family=Ranchers&family=Red+Rose&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+
+</head>
+<body onload="inicia()">
+	<header>
+		<h1>  2º ESO - ECOSUPERVIVIENTES-FÍSICA Y QUÍMICA/MATEMÁTICAS</h1>
+		
+		<h2>1-NECESITAMOS AGUA. CONSTRUYAMOS UNA DESALINIZADORA</h2>
+		<p class="Linea_titulo">  </p>
+		<p class="Cita">La<strong> adaptabilidad </strong> es el simple secreto de la supervivencia (Jessica Hagedorn)</p>
+		<p class="Datos_Usuario">PARTICIPANTE NÚMERO 2</p>
+	</header>
+	
+
+	<main>
+
+			<h3>PARA SOBREVIVIR, TENÉIS QUE APLICAR TODO LO QUE SABÉIS</h3>
+			<!--TEXTO EXPLICATIVO CON FOTO. LA CLASE CONTIANER TIENE 8 COLUMNAS: 3% 7% 20% 20% 20% 20% 10%-->
+			<div class="container">
+					<div class="Problema" style="grid-column: span 5;">   
+					<p>Para sobrevivir en una balsa salvavidas o en una isla, lo más importante es <strong>protegerse del sol y del frío y beber agua potable</strong> frecuentemente. El agua del mar tiene sal y no debe consumirse demasiado porque aumenta la sed y perjudica la salud.</p>
+					<p>Veamos algunas  <strong>propiedades del agua del mar:</strong></p>
+					</div>
+					<figure  style="grid-column: span 2; background-color: grey">
+						<img class="Imagen_Problema" src="img/1-balsa.png" width=120px>
+					</figure>
+			</div>  		
+			<figure  style="grid-column: span 2; background-color: #DBDCDE">
+				<img class="Imagen_Problema" src="img/1-aguamar.jpg" width="50%">
+			</figure>
+			<h3>PREGUNTAS</h3>
+
+
+			<!--1º PREGUNTA: Inputs pequeños, dos por línea CON UNA ÚNICA CORRECCIÓN-->
+			<div class="container">
+					<img src="img/1-flor.png" width=10px style="padding-left: 0;">
+					<p class="Pregunta" style="grid-column: span 6;"><strong>Primera pregunta:</strong> ¿Con qué símbolo representamos cada elemento químico?</p>
+					<p></p><p></p>
+					<label for="respuesta11" class="PreguntaInput">Potasio: </label>
+					<input type="text" name="respuesta11" id="respuesta11" class="entrada"  width=5px>
+					<label for="respuesta12" class="PreguntaInput">Sodio: </label>
+					<input type="text" name="respuesta12" id="respuesta12" class="entrada" size=5px>
+					<p></p>	<p></p> <p></p>
+					<label for="respuesta13" class="PreguntaInput">Calcio: </label>
+					<input type="text" name="respuesta13" id="respuesta13" class="entrada" size=5px>
+					<label for="respuesta14" class="PreguntaInput">Magnesio: </label>
+					<input type="text" name="respuesta14" id="respuesta14" class="entrada" size=5px>
+					<p></p><p></p> <p></p><p></p>
+					<img src="img/right.png" height="40" class="ImagenesCorreccion" id="Correcto1">
+					<img src="img/wrong.png" height="40" class="ImagenesCorreccion" id="Incorrecto1">
+
+			</div>
+
+
+
+			<!--2º PREGUNTA: Desplegable opciones-->
+			<hr>
+			<div class="container">
+					<img src="img/1-flor.png" width=10px style="padding-left: 0; margin-top: 0;">
+					<label for="respuesta2" class="Pregunta" style="grid-column: span 6;"><strong>Segunda pregunta:</strong> Mirad este <a href="https://youtu.be/iHA_TEiG2hk">vídeo</a>. Recuerda que en cada litro de agua marina, tenemos 36gr de sales. <br><strong>¿Qué tipo de solución es?</strong></label>
+					<p></p><p></p>
+					<select name="respuesta2" id="respuesta2" class="seleccionar" style="grid-column: span 2;">
+	  						<option value="pura">Sustancia pura</option>
+	  						<option value="homo">Mezcla homogénea o disolución</option>
+	  						<option value="hete">Mezcla hetereogénea</option>
+					</select>
+					<img src="img/right.png" height="40" class="ImagenesCorreccion" id="Correcto2">
+					<img src="img/wrong.png" height="40" class="ImagenesCorreccion" id="Incorrecto2">
+			</div> 
+			<br><hr>	
+
+
+
+			<!--3º PREGUNTA: Entrada de texto-->
+			<div class="container">
+					<img src="img/1-flor.png" width=10px style="padding-left: 0;margin-top: 0;">
+					<label for="respuesta3" class="Pregunta" style="grid-column: span 6;"><strong>Tercera pregunta:</strong> Si tenemos un recipiente de 6,5 litros de agua marina, ¿Cuántas sales minerales tendremos?</label>
+					<p></p><p></p>
+					<input type="text" name="respuesta3" id="respuesta3" class="entrada" placeholder="Solución en gramos" size=30px style="grid-column: span 2;">	
+					<img src="img/right.png" height="40" class="ImagenesCorreccion" id="Correcto3">
+					<img src="img/wrong.png" height="40" class="ImagenesCorreccion" id="Incorrecto3">
+			</div>  
+			<br><hr>		
+
+
+			<!--4º PREGUNTA: Desplegable opciones-->
+			<br>
+			<div class="container">
+					<img src="img/1-flor.png" width=10px style="padding-left: 0; margin-top: 0;">
+					<label for="respuesta4 class="Pregunta" style="grid-column: span 6;"><strong>Cuarta pregunta:</strong> ¿Qué tipo de relación existe entre la cantidad de agua marina y la cantidad de sales?</strong></label>
+					<p></p><p></p>
+					<select name="respuesta4" id="respuesta4" class="seleccionar" style="grid-column: span 2;">
+	  						<option value="NO">No están relacionadas </option>
+	  						<option value="PI">Es una relación de proporcionalidad inversa</option>
+	  						<option value="PD">Es una relación de proporcionalidad directa</option>
+					</select>
+					<img src="img/right.png" height="40" class="ImagenesCorreccion" id="Correcto4">
+					<img src="img/wrong.png" height="40" class="ImagenesCorreccion" id="Incorrecto4">
+			</div>  
+			<br><hr>
+
+
+			<!--5º PREGUNTA: Entrada de texto-->
+			<div class="container">
+					<img src="img/1-flor.png" width=10px style="padding-left: 0;margin-top: 0;">
+					<label for="respuesta5" class="Pregunta" style="grid-column: span 6;"><strong>Quinta pregunta:</strong> Teniendo en cuenta los porcentajes de los componentes del agua de mar, ¿Puedes decirme cuánto magnesio habría en 6,5 litros de agua marina?</label>
+					<p></p><p></p>
+					<input type="text" name="respuesta5" id="respuesta5" class="entrada" placeholder="Solución en ml" size=30px style="grid-column: span 2;">	
+					<img src="img/right.png" height="40" class="ImagenesCorreccion" id="Correcto5">
+					<img src="img/wrong.png" height="40" class="ImagenesCorreccion" id="Incorrecto5">
+			</div>  
+			<br><hr>	
+
+			<h3>CONSTRUYAMOS UNA DESALINIZADORA</h3>
+			
+
+			<!--Más texto-->
+
+			<br>
+			<div class="container">
+					
+					<label for="respuesta5" class="Pregunta" style="grid-column: span 7;">Como solo podemos beber poca agua salada, tenemos que buscar la manera de <strong>desalinizar el agua</strong>, es decir, quitar la sal del agua del mar. Lee detenidamente la explicación de cómo la desalinizadora de la fotografía nos permite conseguir agua sin sal.
+
+			</div> 
+
+			<figure  style="grid-column: span 2; background-color: #DBDCDE">
+				<img class="Imagen_Problema" src="img/1-desalinizadora.jpg" width="50%">
+			</figure>
+			<div class="container" >
+				<p class="Pregunta" style="grid-column: span 7;">
+				1º. Se coloca el agua sucia, o agua de mar en un recipiente externo de tamaño grande. En el centro se sitúa otro recipiente, un vaso pequeño, destinado a que se deposite allí el agua potable.
+				</p>
+				<p class="Pregunta" style="grid-column: span 7;"> 
+					2º. Se coloca un plástico sobre el recipiente exterior, pegado alrededor con cinta adhesiva de forma que quede completamente sellado.
+				</p>
+				<p class="Pregunta" style="grid-column: span 7;"> 
+					3º. Es recomendable colocar una moneda o piedra pequeña en el centro del plástico para que el mismo tenga un ángulo (declive) hacia el centro del vaso pequeño.
+				</p>
+				<p class="Pregunta" style="grid-column: span 7;"> 
+					4º. Se deja el recipiente expuesto al sol por varias horas. El agua comenzará a evaporarse y se condensará contra el plástico transparente, convirtiéndose en pequeñas gotas que, por el ángulo formado con el peso de las monedas o piedras, se rodarán hacia el centro y precipitarán hacia el vaso.
+				</p>
+			</div>
+			<br><hr>	
+
+			<!--6º PREGUNTA: Entrada de texto-->
+			<div class="container">
+					<img src="img/1-flor.png" width=10px style="padding-left: 0; margin-top: 0;">
+					<label for="respuesta61" class="Pregunta" style="grid-column: span 6;">El <strong>cambio</strong> del agua <strong>líquida a vapor</strong> que se produce cuando el sol incide sobre la desalinizadora se llama …………</label>
+					<p></p><p></p>
+					<input type="text" name="respuesta61" id="respuesta61" class="entrada" placeholder="Primera letra mayúscula y resto minúsculas" size=30px style="grid-column: span 2;">	<p></p><p></p><p></p>
+					<img src="img/1-flor.png" width=10px style="padding-left: 0">
+					<label for="respuesta62" class="Pregunta" style="grid-column: span 6;"> Después el agua <strong>evaporada</strong> se convierte a <strong>líquido</strong> en el plástico exterior debido al <strong>proceso</strong> llamado ………</label>
+					<p></p><p></p>
+					<input type="text" name="respuesta62" id="respuesta62" class="entrada" placeholder="Primera letra mayúscula y resto minúsculas" size=30px style="grid-column: span 2;">	<p></p><p></p><p></p><p></p><p></p>
+					<img src="img/right.png" height="40" class="ImagenesCorreccion" id="Correcto6">
+					<img src="img/wrong.png" height="40" class="ImagenesCorreccion" id="Incorrecto6">
+			</div> 
+			<br><hr>
+
+			<!--7º PREGUNTA: Entrada de texto-->
+			<div class="container">
+					<img src="img/1-flor.png" width=10px style="padding-left: 0; margin-top: 0;">
+					<label for="respuesta7 class="Pregunta" style="grid-column: span 4;">Si el recipiente interior de la desalinizadora es un <strong>vaso cilíndrico</strong> de diámetro 20cm y de 5,2cm de altura <strong>¿Cuánta agua </strong>desalinizada conseguiremos como máximo de nuestra desalinizadora cada vez?</strong> Redondea a un decimal</label>
+					<figure  style="grid-column: span 2; background-color:  #DBDCDE; padding-top: 0; margin-top: 0;">
+						<img class="Imagen_Problema" src="img/1-vaso.png" width=100px>
+					</figure>
+					<p></p><p></p>
+					<select name="respuesta7" id="respuesta7" class="seleccionar" style="grid-column: span 2;">
+	  						<option value="SI">1,6 litros </option>
+	  						<option value="NO">1,9 litros</option>
+	  						<option value="NO">16,3 litros</option>
+	  						<option value="NO">1638,8 litros</option>
+	  						<option value="NO">0,3 litros</option>
+	  						<option value="NO">1,7 litros</option>
+	  						<option value="NO">17,1 litros</option>
+					</select>
+					<img src="img/right.png" height="40" class="ImagenesCorreccion" id="Correcto7">
+					<img src="img/wrong.png" height="40" class="ImagenesCorreccion" id="Incorrecto7">
+			</div>  
+
+
+
+			<hr>
+			<br>
+			<div class="formulario__grupo formulario__grupo-btn-enviar">
+				<button  class="formulario__btn" onclick="PLANTILLAcomprobar()">Comprueba tus respuestas</button>
+			
+			</div>
+
+
+		<!--CODIGO SOLUCIÓN-->
+		<p class="Codigo" id="Codigo"> The secret letter is A</p>
+	</main>
+
+	<script src="js/1-AGUA-comprobar-2.js"></script>
+
+
+</body>
+</html>
