@@ -86,7 +86,7 @@ if (Respuesta4=="PD"){
 	}
 
 
-	if ((Respuesta5=="9.99") || (Respuesta5=="9,99")){
+	if (Respuesta5=="10"){
 	 	document.getElementById("Correcto5").style='display:block';
 	 	document.getElementById("Incorrecto5").style='display:none';
 	} else{
